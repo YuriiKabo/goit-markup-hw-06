@@ -314,6 +314,9 @@ img {
   top: 8px;
   right: 8px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   margin: 0;
   width: 30px;
@@ -325,8 +328,8 @@ img {
 }
 
 .modal-icon {
-  width: 11px;
-  height: 11px;
+  width: 18px;
+  height: 18px;
 }
 
 .modal .button:hover,
