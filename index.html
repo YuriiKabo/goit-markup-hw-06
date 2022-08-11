@@ -73,6 +73,59 @@
                   <use href="./img/symbol-defs.svg#icon-close"></use>
                 </svg>
               </button>
+              
+              <form action="#">
+                <div class="form-container">
+                <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+                <ul class="data-list list">
+                  <li class="data-item" >
+                    <label class="label-title" for="name">Имя</label>
+                    <input
+                      class="form-input"
+                      type="text"
+                      name="user-name"
+                      id="name"
+                    />
+                  </li>
+                  <li class="data-item" >
+                    <label class="label-title" for="tel">Телефон</label>
+                    <input class="form-input" type="tel" name="tel" id="tel" />
+                  </li>
+                  <li class="data-item" >
+                    <label class="label-title" for="email">Почта</label>
+                    <input
+                      class="form-input"
+                      type="email"
+                      name="email"
+                      id="email"
+                    />
+                  </li class="data-item" >
+                  <li class="textarea-item">
+                    <label class="label-title" for="coment">Коментарий</label>
+                    <textarea
+                      class="form-coment"
+                      name="coment"
+                      id="coment"
+                      rows="10"
+                      placeholder="Введите текст"
+                    ></textarea>
+                  </li>
+                </ul>
+
+                <label class="label-agree" for="agree">
+                  <input
+                    type="checkbox"
+                    name="agree"
+                    value="agree"
+                    id="agree"
+                  />
+                  Соглашаюсь с рассылкой и принимаю
+                  <a href="#" class="contract-link">Условия договора</a>
+                </label>
+
+                <button class="button-send" type="submit">Отправить</button>
+              </div>
+              </form>
             </div>
           </div>
         </div>
