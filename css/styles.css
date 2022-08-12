@@ -501,25 +501,23 @@ img {
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
   margin-right: 7px;
-}
 
-.checkbox {
+  transition-property: background-color, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-icon {
-  fill: transparent;
+  fill: var(--button-text-color);
 }
+
 .checkbox:checked + .check-label span {
   background-color: var(--accent-color);
-  border: none;
+  border-color: rgba(33, 33, 33, 0);
 }
 
-/* .checkbox:focus + .check-label span {
-  border-color: var(--accent-color);
-} */
-
-.checkbox:checked + .check-label .check-icon {
-  fill: var(--button-text-color);
+.checkbox:focus + .check-label span {
+  border: 2px solid var(--accent-color);
 }
 
 .contract-link {
