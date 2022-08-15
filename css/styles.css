@@ -819,6 +819,11 @@ img {
 }
 /* -------Форма модалки-------- */
 
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .data-item {
   margin-bottom: 10px;
   width: 100%;
@@ -936,6 +941,7 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
+/* --- */
 
 .check-label {
   display: flex;
@@ -988,6 +994,8 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+
+  margin: 0 auto;
   padding: 10px 55px;
   border: 0;
   border-radius: 4px;
